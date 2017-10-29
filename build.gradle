@@ -1,0 +1,17 @@
+group 'com.shengsiyuan'
+version '1.0'
+
+apply plugin: 'java'
+gradle -version
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile(
+             'com.google.google.guava:guava:16.0'
+    )
+
+}
