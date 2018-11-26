@@ -11,7 +11,7 @@ public class Test1 {
         List<Integer> list  = Arrays.asList(1,2,3,4,5);
         list.forEach(integer -> System.out.println(integer));
 
-        list.forEach(System.out :: println);
+          list.forEach(System.out :: println);
         new Thread(() -> System.out.println("hello world")).start();
 
     }
